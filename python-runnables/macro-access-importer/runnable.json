@@ -1,0 +1,28 @@
+{
+    "meta": {
+        "label": "MS Access tables importer",
+        "description": "Create one dataset per Access table",
+        "icon": "icon-list-alt"
+    },
+    "macroRoles": [
+        {
+            "type": "MANAGED_FOLDER",
+            "targetParamsKey": "model_folder_id"
+        }
+    ],
+    "params": [
+        {
+            "name": "model_folder_id",
+            "type": "FOLDER",
+            "label": "Folder name",
+            "description": "Name of the folder that contains the xlsx file(s)"
+        },
+        {
+           "name": "overwrite",
+           "type": "BOOLEAN",
+           "label": "Overwrite",
+           "default": false
+        }
+     ],
+     "resultType" : "RESULT_TABLE"
+}
