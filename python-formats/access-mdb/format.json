@@ -1,0 +1,25 @@
+{
+    "meta" : {
+        "label": "Access .mdb format",
+        "description": "",
+        "icon": "icon-list-alt"
+    },
+    "canBeDatasetFormat": true,
+    "canRead": true,
+    "canWrite": false,
+    "canExtractSchema": true,
+    "exportOptions": [
+    ],
+    "mime" : {
+        "mimeType": "text/plain",
+        "extension": ".mdb"
+    },
+    "params": [
+        {
+            "name": "table_name",
+            "label": "Table name",
+            "type": "STRING",
+            "mandatory": true
+        }
+    ]
+}
